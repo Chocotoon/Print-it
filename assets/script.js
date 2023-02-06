@@ -52,11 +52,12 @@ function setCurrentText(imageIndex){
 
 // Définit le point actif
 function setCurrentDot(imageIndex){
-	for(let i=0; i<slides.length; i++){
-		document.querySelector("#dot"+i).classList.remove("dot_selected");
-	}
-	document.querySelector("#dot"+imageIndex).classList.add("dot_selected");
+    for(let i=0; i<slides.length; i++){
+        document.querySelector("#dot"+i).classList.remove("dot_selected");
+    }
+    document.querySelector("#dot"+imageIndex).classList.add("dot_selected");
 }
+
 
 let currentImage = document.createElement ("img");
 currentImage.classList.add ("banner-img");
