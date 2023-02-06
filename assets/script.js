@@ -50,6 +50,8 @@ function setCurrentText(imageIndex){
 
 }
 
+let currentDot = document.getElementsByClassName("dot_selected");
+
 // Définit le point actif
 function setCurrentDot(imageIndex){
     for(let i=0; i<slides.length; i++){
